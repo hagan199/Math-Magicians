@@ -1,81 +1,33 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './calculator.css';
 
 function Calculator() {
+  const [value, setValue] = useState(0);
+
   return (
-    <div className="calculator">
-      <div className="calc-input-group">
-        <input className="calc-input" type="text" value="0" readOnly />
+    <div className="container">
+      <div className="output">{value}</div>
+      <div className="buttons">
+        <button type="button">AC</button>
+        <button type="button">+/-</button>
+        <button type="button">%</button>
+        <button type="button" className="operator">÷</button>
+        <button type="button">7</button>
+        <button type="button">8</button>
+        <button type="button">9</button>
+        <button type="button" className="operator">x</button>
+        <button type="button">4</button>
+        <button type="button">5</button>
+        <button type="button">6</button>
+        <button type="button" className="operator">-</button>
+        <button type="button">1</button>
+        <button type="button">2</button>
+        <button type="button">3</button>
+        <button type="button" className="operator">+</button>
+        <button type="button" className="span-2">0</button>
+        <button type="button">.</button>
+        <button type="button" className="operator" onClick={() => setValue(value)}>=</button>
       </div>
-      <ul className="buttons-container">
-        <li className="button-row">
-          <button className="calc-btn" type="button">
-            AC
-          </button>
-          <button className="calc-btn" type="button">
-            +/-
-          </button>
-          <button className="calc-btn" type="button">
-            %
-          </button>
-          <button className="calc-btn btn-operation" type="button">
-            &#247;
-          </button>
-        </li>
-        <li className="button-row">
-          <button className="calc-btn" type="button">
-            7
-          </button>
-          <button className="calc-btn" type="button">
-            8
-          </button>
-          <button className="calc-btn" type="button">
-            9
-          </button>
-          <button className="calc-btn btn-operation" type="button">
-            x
-          </button>
-        </li>
-        <li className="button-row">
-          <button className="calc-btn" type="button">
-            4
-          </button>
-          <button className="calc-btn" type="button">
-            5
-          </button>
-          <button className="calc-btn" type="button">
-            6
-          </button>
-          <button className="calc-btn btn-operation" type="button">
-            -
-          </button>
-        </li>
-        <li className="button-row">
-          <button className="calc-btn" type="button">
-            3
-          </button>
-          <button className="calc-btn" type="button">
-            2
-          </button>
-          <button className="calc-btn" type="button">
-            1
-          </button>
-          <button className="calc-btn btn-operation" type="button">
-            +
-          </button>
-        </li>
-        <li className="button-row">
-          <button className="calc-btn btn-zero" type="button">
-            0
-          </button>
-          <button className="calc-btn" type="button">
-            .
-          </button>
-          <button className="calc-btn btn-operation" type="button">
-            =
-          </button>
-        </li>
-      </ul>
     </div>
   );
 }
