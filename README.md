@@ -140,7 +140,7 @@ If you like this project you can follow me and give the project a star.
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 🙏 Microverse <a name="acknowledgements"></a>
 
 **Microverse**
 
