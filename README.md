@@ -66,14 +66,6 @@ This website also has a "random math fact" feature, which shows a fun and intere
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> ## Project demo
-
-> Site is under construction and the project demo will be updated soon.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
