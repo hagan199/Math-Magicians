@@ -97,7 +97,6 @@ You can deploy this project using:
 ```sh
   npm run deploy
 ```
- -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
