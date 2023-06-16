@@ -88,7 +88,7 @@ To run the project, execute the following command:
 
 ### Run tests
 
-npm test
+To run the test suite for the project, use the command "npm test".
 
 ### Deployment
 
