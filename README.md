@@ -42,17 +42,11 @@ This website also has a "random math fact" feature, which shows a fun and intere
     <li><a href="#">React</a></li>
   </ul>
 </details>
-<details>
-  <summary>CSS</summary>
-  <ul>
-    <li><a href="#">CSS</a></li>
-  </ul>
-</details>
 
 <details>
-  <summary>Javascript</summary>
+  <summary>React</summary>
   <ul>
-    <li><a href="#">Javascript</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
 
@@ -71,6 +65,7 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
+In order to run this project you need:
 Node.js
 Visual Studio Code
 Browser
@@ -83,11 +78,19 @@ cd Maths-Magician
 
 ### Install
 
-npm install
+Install this project with:
+```
+npm i
 
+npm run build
+```
 ### Usage
 
-npm start
+To run the project, execute the following command:
+
+```sh
+  npm start
+```
 
 ### Run tests
 
@@ -95,8 +98,12 @@ npm test
 
 ### Deployment
 
-npm run build
+You can deploy this project using:
 
+```sh
+  npm run deploy
+```
+ -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
