@@ -43,12 +43,6 @@ This website also has a "random math fact" feature, which shows a fun and intere
   </ul>
 </details>
 
-<details>
-  <summary>React</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 
