@@ -4,12 +4,7 @@
   box-sizing: border-box;
 }
 
-.App {
-  text-align: center;
-}
-
 .App-header {
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
   background-color: #92a2c3;

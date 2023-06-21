@@ -151,7 +151,7 @@ If you like this project you can follow me and give the project a star.
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Microverse <a name="acknowledgements"></a>
+## 🙏 Acknowledgements <a name="acknowledgements"></a>
 
 **Microverse**
 
