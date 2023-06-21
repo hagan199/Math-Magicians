@@ -40,6 +40,8 @@ This website also has a "random math fact" feature, which shows a fun and intere
   <summary>React</summary>
   <ul>
     <li><a href="#">React</a></li>
+      <li><a href="#">Javascript</a></li>
+        <li><a href="#">CSS</a></li>
   </ul>
 </details>
 
@@ -47,6 +49,15 @@ This website also has a "random math fact" feature, which shows a fun and intere
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
+
+[Setup with create-react-app]
+[Setup linters for React/Redux]
+[Developed the UI of the calculator]
+[Added Components for the Calulator]
+[Added calculate functionality to the Calulator]
+[Added quote which is fetched from API randomly]
+[Added Home Page and used Router]
+
 
 - **[Setup with create-react-app]**
 - **[Setup linters for React/Redux]**
