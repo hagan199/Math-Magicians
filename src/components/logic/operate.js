@@ -1,7 +1,7 @@
-import {Big} from 'big.js';
+import { Big } from 'big.js';
 
 export default function operate(numberOne, numberTwo, operation) {
-  if (isNaN(numberOne) || isNaN(numberTwo)) {
+  if (Number.isNaN(numberOne) || Number.isNaN(numberTwo)) {
     throw Error('Invalid input. Please provide valid numbers.');
   }
 

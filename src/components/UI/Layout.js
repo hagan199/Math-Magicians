@@ -1,7 +1,5 @@
 import React from 'react';
-import renderer from 'react-test-renderer'
 import PropTypes from 'prop-types';
-
 import Header from './Header';
 import classes from './Layout.module.css';
 
