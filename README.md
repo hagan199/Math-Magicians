@@ -100,7 +100,9 @@ To run the project, execute the following command:
 ### Run tests
 
 To run the test suite for the project, use the command "npm test".
-
+### Live Demo
+- [https://math-magicians-psbh.onrender.com]
+- 
 ### Deployment
 
 You can deploy this project using:
