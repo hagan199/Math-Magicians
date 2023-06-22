@@ -1,0 +1,33 @@
+import { Big } from 'big.js';
+
+export default function operate(numberOne, numberTwo, operation) {
+  if (Number.isNaN(numberOne) || Number.isNaN(numberTwo)) {
+    throw Error('Invalid input. Please provide valid numbers.');
+  }
+
+  const one = Big(numberOne);
+  const two = Big(numberTwo);
+
+  switch (operation) {
+    case '+':
+      return one.plus(two).toString();
+    case '-':
+      return one.minus(two).toString();
+    case 'x':
+      return one.times(two).toString();
+    case '÷':
+      try {
+        return one.div(two).toString();
+      } catch (err) {
+        return "Can't divide by 0.";
+      }
+    case '%':
+      try {
+        return one.mod(two).toString();
+      } catch (err) {
+        return "Can't find modulo as can't divide by 0.";
+      }
+    default:
+      throw Error(`Unknown operation '${operation}'`);
+  }
+}
